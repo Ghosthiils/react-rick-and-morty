@@ -7,7 +7,17 @@ function App() {
 
   return (
     <>
-    <h1>Ola mundo</h1>
+    <div className='container'>
+    <h1 className='rick'>Rick Sanchez</h1>
+    <span className='tag'>Status: Vivo</span>
+    <span className='tag'>Espécie</span>
+    <span className='tag'>Origem: Terra C-137</span>
+    <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" />
+    <div className='texto'>
+    
+    </div>
+    </div>
+
      
     </>
   )
